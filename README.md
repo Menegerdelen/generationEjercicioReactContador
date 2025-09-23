@@ -17,8 +17,8 @@ Crear un componente de React llamado **App** que implemente un contador interact
 - ✅ Estructura de archivos organizada
 
 ### 🧩 **2. Creación del Componente App**
-- ✅ Crear componente funcional en `src/App.jsx`
-- ✅ Implementar como función de React
+- ✅ Crear componente funcional en `src/Contador.tsx`
+- ✅ Implementar como función de React con TypeScript
 - ✅ Exportar como componente por defecto
 
 ### 🔄 **3. Definición del Estado**
@@ -37,20 +37,21 @@ Crear un componente de React llamado **App** que implemente un contador interact
 - ✅ **Botón "Reiniciar"** - Reinicia contador
 - ✅ Todos los botones claramente etiquetados
 
-### ⚡ **6. Funciones de Control**
-- ✅ **`incrementar()`** - Función para aumentar el valor
-- ✅ **`decrementar()`** - Función para disminuir el valor
-- ✅ **`reiniciar()`** - Función para reinicar el valor
-- ✅ Todos utilizan `setContador` para actualizar el estado
+###-⚡ 6. Funciones de Control
+
+- ✅ incrementar() - Función para aumentar el valor
+- ✅ decrementar() - Función para disminuir el valor
+- ✅ reiniciar() - Función para resetear a 0 (Extra)
+- ✅ Todas utilizan setContador para actualizar el estado
 
 ### 🖱️ **7. Manejo de Eventos**
-- ✅ Asociar `incrementCount` al botón "Incrementar"
-- ✅ Asociar `decrementCount` al botón "Decrementar"
-- ✅ Asociar `reiniciar()` al botón "Reiniciar"
-- ✅ Utilizar evento **`onClick`** en todos los botones botones
+- ✅ Asociar `incrementar` al botón "Incrementar"
+- ✅ Asociar `decrementar` al botón "Decrementar"
+- ✅ Asociar `reiniciar` al botón "Reiniciar"
+- ✅ Utilizar evento **`onClick`** en todos los botones
 
 ### 🎨 **8. Estilo**
-- ✅ Aplicar estilos CSS al componente App
+- ✅ Aplicar estilos mediante Bootstrap al componente Contador
 - ✅ Estilizar los botones de control
 - ✅ Mejorar la presentación visual general
 
@@ -62,8 +63,8 @@ Un contador interactivo que:
 - **Inicia en 0**
 - **Se incrementa** al presionar "Incrementar"
 - **Se decrementa** al presionar "Decrementar"
-- **Se reinicia el contador** al presionar "Reiniciar"
-- **Tiene una interfaz atractiva** y funcional
+- **Se reinicia a 0** al presionar "Reiniciar" (Funcionalidad extra)
+- **Tiene una interfaz simple** y funcional
 
 ---
 
@@ -73,7 +74,7 @@ Un contador interactivo que:
 - 📚 Componentes funcionales de React
 - 🔄 Hook useState para manejo de estado
 - 🎯 Manejo de eventos onClick
-- 🎨 Aplicación de estilos CSS
+- 🎨 Aplicación de estilos mediante Bootstrap
 - ⚡ Renderizado condicional y reactivo
 
 ### 🌟 **Habilidades Desarrolladas:**
@@ -85,14 +86,17 @@ Un contador interactivo que:
 
 ---
 
-## ✅ Checklist de Verificación
+✅ Checklist de Verificación
 
-- [ ] Proyecto creado con Vite
-- [ ] Componente App implementado
-- [ ] useState configurado correctamente
-- [ ] Contador renderizado en pantalla
-- [ ] Botones "Incrementar" y "Decrementar" creados
-- [ ] Funciones incrementCount y decrementCount implementadas
-- [ ] Eventos onClick asociados correctamente
-- [ ] Estilos CSS aplicados
-- [ ] Aplicación funciona sin errores
+- Proyecto creado con Vite y TypeScript
+- Hook personalizado useContador implementado
+- Componente Contador implementado
+- useState configurado correctamente
+- Contador renderizado en pantalla
+- Botones "Incrementar", "Decrementar" y "Reiniciar" creados
+- Funciones incrementar, decrementar y reiniciar implementadas
+- Eventos onClick asociados correctamente
+- Estilos aplicados mediante Bootstrap
+- Aplicación funciona sin errores
+- Extra: Funcionalidad de reinicio implementada
+ 
