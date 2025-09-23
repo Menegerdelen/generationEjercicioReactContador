@@ -96,7 +96,3 @@ Un contador interactivo que:
 - [ ] Eventos onClick asociados correctamente
 - [ ] Estilos CSS aplicados
 - [ ] Aplicación funciona sin errores
-
----
-
-**🎉 ¡Felicidades por completar tu primera práctica con componentes React!**
