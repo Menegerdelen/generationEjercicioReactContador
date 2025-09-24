@@ -1,4 +1,4 @@
-import { useContador } from "./Hooks/CustomHooks/UseContador"
+import { useContador } from "./Hooks/CustomHooks/useContador"
 
 
 export const Contador = () => {

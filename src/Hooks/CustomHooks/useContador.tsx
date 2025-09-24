@@ -2,8 +2,15 @@
 
 import { useState } from "react"
 
+type UseContadorReturn = [
+    number,
+    () => void,
+    () => void,
+    () => void
+];
 
-export const useContador = ( { valor }:  { valor: number }  ) => {
+
+export const useContador = ( { valor }:  { valor: number }  ): UseContadorReturn => {
 
     const [ contador, setContador ] = useState( valor )
 
